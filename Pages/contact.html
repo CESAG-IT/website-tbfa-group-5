@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/logo.png" alt="Logo" width="200" height="100">
+            </div>
+            <div class="onglets">
+                <a href="../home.html">Accueil</a>
+                <a href="recipes.html">Recettes</a>
+                <a href="add-recipes.html">Ajouter</a>
+                <a href="contact.html">Contact</a>
+            </div>
+           
+            <div class="reseaux-sociaux">
+                <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-twitter' ></i>
+            </div>
+        </nav>
+        <hr>
+    </header>
+
+    <div class="grey">
+        <center><h2>CONTACTEZ NOUS</h2></center>
+    </div>
+    
+    <div class="grand-carre">
+        <form action="/submit_recette" method="post" enctype="multipart/form-data">
+            <div>
+                <label for="nom_recette">Email</label>
+                <input type="text" id="nom_recette" name="nom_recette">
+            </div>
+            <div class="temps">
+                <input type="text" id="temp_preparation" name="temp_preparation" placeholder="Nom">
+                <input type="text" id="temp_cuisson" name="temp_cuisson" placeholder="Prenom">
+            </div>
+            <div>
+                <label for="ingredients">Sujet</label>
+                <textarea id="ingredients" name="ingredients" rows="4" cols="50"></textarea>
+            </div>
+            <div>
+                <label for="recette">Message</label>
+                <textarea id="recette" name="recette" rows="6" cols="50"></textarea>
+            </div>
+            <div>
+                <input class="submit" type="submit" value="Envoyer">
+            </div>
+        </form>
+        
+
+
+    </div>
+<br>
+<br>
+    <footer>
+        <div class="colonne">
+            <img src="../images/logo.png" alt="Logo" class="foot-logo">
+        </div>
+        <div class="colonne">
+            <h4>Categories</h4>
+            <ul>
+                <li>Salades</li>
+                <li>Poulet</li>
+                <li>Poisson</li>
+                <li>Bio / Health</li>
+                <li>Desserts</li>
+            </ul>
+        </div>
+        <div class="colonne">
+            <h4>Menu</h4>
+            <ul>
+                <li><a href="home.html">Accueil</a></li>
+                <li><a href="recipes.html">Recettes</a></li>
+                <li><a href="add-recipes.html">Ajouter</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="colonne">
+            <ul class="reseaux-sociaux">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+            <li><i class='bx bxl-instagram'></i></li>
+            <li><i class='bx bxl-facebook'></i></li>
+            <li><i class='bx bxl-twitter' ></i></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>&copy; c copyright 2022 tbfa groupe 5- cesag</p>
+    </div>
+
+</body>
+</html>

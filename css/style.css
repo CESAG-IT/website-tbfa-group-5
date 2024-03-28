@@ -1,0 +1,324 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #fcfcfc;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 120px; /* Ajustez la taille de votre logo selon vos besoins */
+}
+
+.onglets a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 20px; /* Augmentez la marge entre les onglets */
+    font-size: 18px; /* Augmentez la taille de la police des onglets */
+}
+
+.onglets a:hover {
+    color: rgb(0, 183, 255);
+}
+
+.reseaux-sociaux img {
+    height: 30px; /* Ajustez la taille de vos icônes de réseaux sociaux selon vos besoins */
+    margin: 0 10px; /* Rapprochez les icônes de réseaux sociaux */
+}
+
+.banner {
+    text-align: center;
+    margin-top: 20px; /* Ajustez la marge au besoin */
+}
+
+.banner img {
+    width: 100%; /* Pour qu'elle prenne la largeur totale */
+}
+
+.bloc-cards {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grand-carre{
+    border: 1px solid #000; /* Contours visibles */
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column
+}
+
+.card {
+    width: calc(33.33% - 20px); /* Pour que chaque carte prenne environ un tiers de la largeur */
+    border: 1px solid #000; /* Contours de chaque carte */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.card img {
+    width: 100%; /* Pour que l'image occupe tout l'espace disponible */
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.info h2 {
+    margin-bottom: 5px;
+}
+
+.buttons button {
+    margin-right: 10px;
+}
+
+.bas-carre {
+    border: 2px solid #000; /* Contours visibles */
+    display: flex;
+    margin-top: 20px; /* Marge du haut pour séparer du contenu précédent */
+align-items: center
+}
+
+.image {
+    flex: 1; /* Pour que l'image occupe la moitié de la largeur */
+    padding: 20px;
+}
+
+.image img {
+    width: 100%; /* Pour que l'image occupe tout l'espace disponible */
+}
+
+.texte {
+    flex: 2; /* Pour que le texte occupe deux tiers de la largeur */
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+.texte h2 {
+    margin-top: 0; /* Supprime la marge du haut pour le titre */
+}
+
+.texte a {
+    display: inline-block;
+    margin-top: 10px; /* Marge au-dessus du lien */
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+main {
+    padding: 20px;
+}
+
+.recipe {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.recipe h2 {
+    margin-top: 0;
+}
+
+.recipe ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    border: 1px solid #000;
+    background-color: #fcfcfc;
+    color: #000000;
+    
+}
+
+.colonne {
+    width: 25%; /* Pour que chaque colonne occupe un quart du footer */
+    float: left;
+    padding: 0 15px;
+}
+
+.colonne h4 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #000000;
+}
+
+.reseaux-sociaux {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.foot-logo{
+    height: 100px;
+    width: 100px;
+}
+
+footer {    
+    padding: 20px 0;
+    display: flex; /* Utilisation de flexbox pour aligner les colonnes */
+    justify-content: space-between; /* Pour répartir les colonnes horizontalement */
+}
+
+.colonne {
+    width: 25%;
+}
+
+.colonne h4 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+.reseaux-sociaux {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reseaux-sociaux li {
+    margin-left: 10px;
+}
+
+
+.copyright {
+    text-align: center; /* Pour centrer le texte horizontalement */
+    padding: 10px 0; /* Ajoute un peu d'espace autour du texte */
+}
+
+.grand-carre {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+.temps  {
+    display: flex;   
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.submit:hover {
+    background-color: darkgreen;
+}
+
+.btn-back {
+    background-color: grey; /* couleur de fond */
+    border: none; /* pas de bordure */
+    color: white; /* couleur du texte */
+    padding: 10px 20px; /* espacement à l'intérieur du bouton */
+    text-align: center; /* alignement du texte */
+    text-decoration: none; /* pas de soulignement */
+    display: inline-block; /* affichage en ligne */
+    font-size: 16px; /* taille du texte */
+    margin: 10px 0; /* marge en haut et en bas */
+    margin-left: 10px; /* marge à gauche */
+    cursor: pointer; /* curseur de la souris */
+    border-radius: 5px; /* arrondi des coins */
+    width: 10%;
+}
+
+.btn-back:hover {
+    background-color: #45a049; /* couleur de fond au survol */
+}
+
+.recettingredient {
+    display: flex; /* Utilisation de flexbox */
+}
+
+.grand-carre {
+    flex-grow: 1; /* Permet à chaque élément de prendre autant d'espace que possible */
+    border: 1px solid black; /* Ajout d'une bordure pour visualiser l'espace */
+}
+
+.grand-carre:nth-child(2) {
+    margin-left: 10px; /* Marge entre les éléments */
+}
+
+button[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Pied de page */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
